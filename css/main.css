@@ -44,6 +44,31 @@ a:hover{
   }
 
 
+  .col-lg-12{
+    padding-top: 15px;
+  }
+
+  .nav-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 15px;
+  }
+
+
+  .btn__lng{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
 .fruits__header{
     display: flex;
     align-items: center;
@@ -221,8 +246,12 @@ a:hover{
     padding: 1px;
     width: 10px;
     height: 10px;
-    background: #E8E8E8;
-    
+    background: #E8E8E8;  
+}
+
+.carousel-indicators1{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-indicators1 .active{
@@ -466,6 +495,9 @@ a:hover{
 .pemush__section{
     background-image: url(./../images/premush.png);
     margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
 }
 
 .premush__link{
@@ -503,6 +535,47 @@ a:hover{
     display: flex;
     align-items: center;
     gap: 34px;
+}
+
+.serti__imagee{
+    width: 282px;
+    height: 376px;
+}
+
+.carousel-inner1{
+    text-align: center;
+}
+
+.chapga{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 35%;
+    background-color: #B3B3B3;
+}
+
+.chapga:active{
+    background-color: #1FDF49;
+}
+
+.onga{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 35%;
+    background-color: #B3B3B3;
+}
+
+.onga:active{
+    background-color: #1FDF49;
+}
+
+.chapp{
+    padding-top: 18px;
+}
+
+.ongg{
+    padding-top: 18px;
 }
 
 .serti__heading{
@@ -566,6 +639,8 @@ a:hover{
 }
 
 .btn__text{
+    display: flex;
+    align-items: center;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
@@ -663,8 +738,8 @@ a:hover{
 }
 
 .carousel-item2{
-    width: 368px;
-    height: 271px;
+    width: 273.75px;
+    height: 350px;
 }
 
 .carusel__inner{
@@ -703,6 +778,11 @@ a:hover{
 
 
 @media (max-width: 991px){
+
+    .btn__text{
+        font-size: 16px;
+        line-height: 18px;
+    }
 
     .kontactt{
         display: flex;

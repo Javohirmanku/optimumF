@@ -311,7 +311,7 @@ a:hover{
 .tovar__section{
     padding-top: 112px;
     padding-bottom: 140px;
-}
+}line-height
 
 
 
@@ -364,15 +364,7 @@ a:hover{
     object-position: center;
 }
 
-.fruits__divThree{
-    width: 486px;
-    height: 257px;
-    background-image: url("./../images/fruits3.png");
-    border-radius: 10px;
-    background-size: cover;
-    object-fit: contain;
-    object-position: center;
-}
+
 
 .fruits__divFour{
     width: 700px;
@@ -443,7 +435,7 @@ a:hover{
 
 
 /* premush section */
-
+line-height
 .premush__box{
     padding-top: 80px;
     padding-bottom: 80px;

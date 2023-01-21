@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <title>Optimum Fruits</title>
@@ -11,7 +20,7 @@
 <body>
     <header class="header">
         <div class="container"  style="position: relative;">
-          <div class="row">
+          <div class="row teppa">
             <div class="col-lg-12 navbar-col" style="position: absolute; z-index: 99;">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                     <div class="container-fluid ff">
@@ -161,6 +170,7 @@
               </span>
             </button>
             <br>
+            <br>
             <div class="carousel-indicators carousel-indicators1"> 
                 <button  type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active carousel-button carousel-button1" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="carousel-button carousel-button1 mx-3" aria-label="Slide 2"></button>
@@ -301,32 +311,134 @@
                 <h2 class="serti__heading">
                     Сертификаты
                 </h2>
-                <div id="carouselExampleIndicators" class="carousel slide serti__carusel" data-bs-ride="true">
-                    <div class="carousel-inner carusel__inner">
-                      <div class="carousel-item  active d-flex">
-                        <img src="./images/ima.png" class="d-block carousel-item2" alt="...">
-                      </div>
-                      <div class="carousel-item d-flex">
-                        <img src="./images/ima.png" class="d-block carousel-item2" alt="...">
-                      </div>
-                      <div class="carousel-item  d-flex">
-                        <img src="./images/ima.png" class="d-block carousel-item2" alt="...">
-                      </div>
-                      <div class="carousel-item d-flex">
-                        <img src="./images/ima.png" class="d-block carousel-item2" alt="...">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="carousel slide multi-item-carousel" id="theCarousel">
+                          <div class="carousel-inner carousel-inner1">
+                            <div class="item active">
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                            </div>
+                            <div class="item ">
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                              <div class="col-md-3 serti__imagee">
+                                <a href="#1"><img src="./images/ima.png" class="img-responsive"></a>
+                              </div>
+                            </div>
+                            <!-- add  more items here -->
+                            <!-- Example item start:  -->
+                  
+                            <div class="item">
+                              <div class="col-md-3"><a href="#1"><img src="./images/ima.png" class="img-responsive"></a></div>
+                              <div class="col-md-3"><a href="#1"><img src="./images/ima.png" class="img-responsive"></a></div>
+                            </div>
+                  
+                            <!--  Example item end -->
+                          </div>
+                          <a class="left carousel-control chapga" href="#theCarousel" data-slide="prev">
+                            <img class="chapp" src="./images/chap.svg" alt="">
+                          </a>
+                          <a class="right carousel-control onga" href="#theCarousel" data-slide="next"><img class="ongg" src="./images/ongg.svg" alt=""></i></a>
+                        </div>
                       </div>
                     </div>
-                    <button class="carousel-control-prev prevv " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <img src="./images/arrow-lefta.svg" alt="">
-                    </button>
-                    <button class="carousel-control-next nextt" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <img src="./images/arrow-left.svg" alt="">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </button>
-                </div>
+                  </div>
+                  <style media="screen">
+                    .multi-item-carousel .carousel-inner > .item {
+                    transition: 500ms ease-in-out left;
+                  }
+                  .multi-item-carousel .carousel-inner .active.left {
+                    left: -25%;
+                  }
+                  .multi-item-carousel .carousel-inner .active.right {
+                    left: 25%;
+                  }
+                  .multi-item-carousel .carousel-inner .next {
+                    left: 25%;
+                  }
+                  .multi-item-carousel .carousel-inner .prev {
+                    left: -25%;
+                  }
+                  @media all and (transform-3d), (-webkit-transform-3d) {
+                    .multi-item-carousel .carousel-inner > .item {
+                      transition: 500ms ease-in-out left;
+                      transition: 500ms ease-in-out all;
+                      -webkit-backface-visibility: visible;
+                              backface-visibility: visible;
+                      -webkit-transform: none!important;
+                              transform: none!important;
+                    }
+                  }
+                  .multi-item-carousel .carouse-control.left,
+                  .multi-item-carousel .carouse-control.right {
+                    background-image: none;
+                  }
+                  
+                  </style>
+                  <script type="text/javascript">
+                    // Instantiate the Bootstrap carousel
+                  $('.multi-item-carousel').carousel({
+                    interval: false
+                  });
+                  
+                  // for every slide in carousel, copy the next slide's item in the slide.
+                  // Do the same for the next, next item.
+                  $('.multi-item-carousel .item').each(function(){
+                    var next = $(this).next();
+                    if (!next.length) {
+                      next = $(this).siblings(':first');
+                    }
+                    next.children(':first-child').clone().appendTo($(this));
+                  
+                    if (next.next().length>0) {
+                      next.next().children(':first-child').clone().appendTo($(this));
+                    } else {
+                        $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+                    }
+                  });
+                  </script>
             </div>
         </section>
+        
 
         <section class="galereya__section">
             <div class="container">
